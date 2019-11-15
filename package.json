@@ -1,7 +1,7 @@
 {
-  "name": "igniteui-react-datasources",
+  "name": "igniteui-webcomponents-datasources",
   "version": "1.0.0",
-  "description": "reference custom data providers for the Ignite UI React data source",
+  "description": "Reference custom data providers for the Ignite UI Web Components data source",
   "main": "index.js",
   "scripts": {
     "compileES5": "tsc -p tsconfig-ES5.json",
@@ -12,18 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IgniteUI/igniteui-react-datasources.git"
+    "url": "git+https://github.com/IgniteUI/igniteui-webcomponents-datasources.git"
   },
   "author": "Infragistics",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IgniteUI/igniteui-react-datasources/issues"
+    "url": "https://github.com/IgniteUI/igniteui-webcomponents-datasources/issues"
   },
-  "homepage": "https://github.com/IgniteUI/igniteui-react-datasources#readme",
+  "homepage": "https://github.com/IgniteUI/igniteui-webcomponents-datasources#readme",
   "peerDependencies": {
-    "igniteui-react-core": "^16.6.3"
+    "igniteui-webcomponents-core": "^0.1.0-beta.6"
   },
   "dependencies": {
+    "igniteui-webcomponents-core": "0.1.0-beta.6",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
